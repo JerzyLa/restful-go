@@ -4,6 +4,8 @@ github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/fsnotify/fsnotify v1.4.9 h1:hsms1Qyu0jgnwNXIxa+/V/PDsU6CfLf6CNO8H7IWoS4=
 github.com/fsnotify/fsnotify v1.4.9/go.mod h1:znqG4EE+3YCdAaPaxE2ZRY/06pZUdp0tY4IgpuI1SZQ=
+github.com/go-stack/stack v1.8.1 h1:ntEHSVwIt7PNXNpgPmVfMrNhLtgjlmnZha2kOpuRiDw=
+github.com/go-stack/stack v1.8.1/go.mod h1:dcoOX6HbPZSZptuspn9bctJ+N/CnF5gGygcUP3XYfe4=
 github.com/inconshreveable/log15 v0.0.0-20200109203555-b30bc20e4fd1 h1:KUDFlmBg2buRWNzIcwLlKvfcnujcHQRQ1As1LoaCLAM=
 github.com/inconshreveable/log15 v0.0.0-20200109203555-b30bc20e4fd1/go.mod h1:cOaXtrgN4ScfRrD9Bre7U1thNq5RtJ8ZoP4iXVGRj6o=
 github.com/mattn/go-colorable v0.1.6 h1:6Su7aK7lXmJ/U79bYtBjLNaha4Fs1Rg9plHpcH+vvnE=
@@ -20,8 +22,8 @@ github.com/revel/log15 v2.11.20+incompatible h1:JkA4tbwIo/UGEMumY50zndKq816RQW3L
 github.com/revel/log15 v2.11.20+incompatible/go.mod h1:l0WmLRs+IM1hBl4noJiBc2tZQiOgZyXzS1mdmFt+5Gc=
 github.com/revel/pathtree v0.0.0-20140121041023-41257a1839e9 h1:/d6kfjzjyx19ieWqMOXHSTLFuRxLOH15ZubtcAXExKw=
 github.com/revel/pathtree v0.0.0-20140121041023-41257a1839e9/go.mod h1:TmlwoRLDvgRjoTe6rbsxIaka/CulzYrgfef7iNJcEWY=
-github.com/revel/revel v0.21.0 h1:E6kDJmpJSDb0F8XwbyG5h4ayzpZ+8Wcw2IiPZW/2qSc=
-github.com/revel/revel v0.21.0/go.mod h1:VZWJnHjpDEtuGUuZJ2NO42XryitrtwsdVaJxfDeo5yc=
+github.com/revel/revel v1.0.0 h1:BsPFnKuuzXEkPtrjdjZHiDcvDmbBiBQvh7Z5c6kLb/Y=
+github.com/revel/revel v1.0.0/go.mod h1:VZWJnHjpDEtuGUuZJ2NO42XryitrtwsdVaJxfDeo5yc=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/testify v1.6.1 h1:hDPOHmpOpP40lSULcqw7IrRb/u7w6RpDC9399XyoNd0=
 github.com/stretchr/testify v1.6.1/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
@@ -41,8 +43,6 @@ golang.org/x/sys v0.0.0-20200323222414-85ca7c5b95cd/go.mod h1:h1NjWce9XRLGQEsW7w
 golang.org/x/text v0.3.0/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405 h1:yhCVgyC4o1eVCa2tZl7eS0r+SDo693bJlVdllGtEeKM=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
-gopkg.in/fsnotify/fsnotify.v1 v1.4.7 h1:XNNYLJHt73EyYiCZi6+xjupS9CpvmiDgjPTAjrBlQbo=
-gopkg.in/fsnotify/fsnotify.v1 v1.4.7/go.mod h1:Fyux9zXlo4rWoMSIzpn9fDAYjalPqJ/K1qJ27s+7ltE=
 gopkg.in/natefinch/lumberjack.v2 v2.0.0 h1:1Lc07Kr7qY4U2YPouBjpCLxpiyxIVoxqXgkXLknAOE8=
 gopkg.in/natefinch/lumberjack.v2 v2.0.0/go.mod h1:l0ndWWf7gzL7RNwBG7wST/UCcT4T24xpD6X8LsfU/+k=
 gopkg.in/stack.v0 v0.0.0-20141108040640-9b43fcefddd0 h1:lMH45EKqD8Nf6LwoF+43YOKjOAEEHQRVgDyG8RCV4MU=
